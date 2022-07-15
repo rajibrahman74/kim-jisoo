@@ -1,0 +1,123 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    border-color: #fffefe;
+}
+/* all section h1 and h2 style start */
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+/* all section h1 and h2 style end */
+
+/* first section and second section all p tag  style  start */
+.first-p{
+    text-align: justify;
+    padding-bottom: 5px;
+}
+.second-p{
+    text-align: justify;
+    padding-right: 2em;
+    padding-bottom: 5px;
+}
+/* first section and second section all p tag  style  end */
+
+/* all span tag style start */
+.Orange{
+    color: orange;
+}
+/* all span tag style  end */
+
+/* start style with first and second section and last section in div */
+.felexible{
+    display: flex;
+    margin-bottom: 150px;
+}
+/* end style with first and second section and last section in div */
+
+/* first section all div, imgae, class style  start */
+.first-section{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 85%;
+    padding-left: 4%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+/* first section all div, imgae, class style end */
+
+/* second section all div, imgae, class style start */
+.second-section{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-div{
+    width: 50%;
+    padding-right: 5%;
+}
+.half-div img{
+    width: 85%;
+    padding-right: 5%;
+}
+.download-me{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+/* Second section all div, imgae, class style end */
+
+/* last section all div, class style start */
+.last-section{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex-item{
+    width: 50%;
+    box-shadow: 10px 10px 40px pink;
+    margin-right: 5%;
+    margin-left: 6%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding: 40px;
+}
+.ex-item p{
+    text-align: justify;
+}
+#b-c{
+    border-left: 9px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+
+#b-c2{
+    border-left: 9px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+/* last section all div, class style end */
+
+/* footer tag all style start */
+footer p{
+    text-align: center;
+    padding-bottom: 2em;
+}
+/* footer tag all style end */
