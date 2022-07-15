@@ -39,7 +39,7 @@ h2{
 
 /* first section all div, imgae, class style  start */
 .first-section{
-    background-image: url(../images/top-banner.png);
+    background-image: url(./top-banner.png);
     background-repeat: no-repeat;
 }
 .half-width{
@@ -62,7 +62,7 @@ h2{
 
 /* second section all div, imgae, class style start */
 .second-section{
-    background-image: url(../images/dream-bg.png);
+    background-image: url(./dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -86,7 +86,7 @@ h2{
 
 /* last section all div, class style start */
 .last-section{
-    background-image: url(../images/exp-bg.png);
+    background-image: url(./exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -94,7 +94,7 @@ h2{
     width: 50%;
     box-shadow: 10px 10px 40px pink;
     margin-right: 5%;
-    margin-left: 6%;
+    margin-left: 5.5%;
     padding-left: 2em;
     padding-right: 2em;
     padding: 40px;
